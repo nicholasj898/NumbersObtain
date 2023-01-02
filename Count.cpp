@@ -89,7 +89,7 @@ void occursFunction(int(&array)[SIZE], int arrayLength) {
 		}
 	}
 
-	//display the occurs array and count
+	// display the occurs array and count
 	for (int inx = 0; inx < occursCount; inx++) {
 		cout << static_cast<int>(occurs[inx][0]) << " | " << static_cast<int>(occurs[inx][1]) << endl;
 	}
