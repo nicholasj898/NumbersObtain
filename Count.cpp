@@ -1,10 +1,18 @@
+/*----------------------------Count.cpp----------------------------------------------------------------
+|  Author: Nicholas Jones                                                                             |
+|  Purpose: Sort and display the contents of the 'numbers.txt' file                                   |
+|  Required Files: numbers.txt                                                                        |
+|  Dependencies: Standard C++                                                                         |
+|  Known Bugs: N/A                                                                                    |
+|  Licensing Information: You are free to use or extend this project for educational purposes         |
+------------------------------------------------------------------------------------------------------*/
 #include <iostream>
 #include <fstream>
 #include <iomanip>
 #include <vector>
 
 using namespace std;
-//
+
 const int SIZE = 50;
 // function prototypes 
 void sortFunction(int(&nbrs)[SIZE], int idx);
